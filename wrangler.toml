@@ -17,7 +17,7 @@ id = "7ed48fcabf364d56b14bb25cb1ea2598"
 
 # 定时任务配置 - 每天早上8点检查
 [triggers]
-crons = ["0 */6 * * *"]
+crons = ["0 */4 * * *"]
 
 # 环境变量（可选，也可以在 Cloudflare Dashboard 中设置）
 [vars]
